@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 50px 50px;
     gap: 10px;
+    
 }
 
 .gird-item{
