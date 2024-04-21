@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+button{
+    font-size: 20px;
+    padding: 25px;
+    background-color: gold;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: all 0.5s cubic-bezier(.47,1.72,.87,.08);
+    -webkit-transition: all 0.5s cubic-bezier(.47,1.72,.87,.08);
+    -moz-transition: all 0.5s cubic-bezier(.47,1.72,.87,.08);
+    -ms-transition: all 0.5s cubic-bezier(.47,1.72,.87,.08);
+    -o-transition: all 0.5s cubic-bezier(.47,1.72,.87,.08);
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+    padding:50px;
+}
