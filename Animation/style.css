@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+20+Charted&family=Noto+Sans+Arabic:wght@100..900&family=Pacifico&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Anton", sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+    background-color: rgb(39, 39, 38);
+    
+}
+
+h1{
+    color: white;
+
+    animation-name: change-color;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+button{
+    border: 0;
+    border-radius: 15px;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation: change-background 5s infinite forwards;
+    -webkit-animation: change-background 5s infinite forwards;
+}
+
+@keyframes change-color  {
+    from{
+        color: white;
+
+    }
+    
+    to{
+        color: gold;
+
+    }
+}
+
+@keyframes change-background {
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: blanchedalmond;
+    }
+    20%{
+        background-color: darkorange;
+    }
+    40%{
+        background-color: coral;
+    }
+    60%{
+        background-color: aquamarine;
+    }
+    80%{
+        background-color: green;
+    }
+    100%{
+        background-color: tomato;
+    }
+    
+}
